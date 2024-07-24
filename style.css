@@ -1,0 +1,193 @@
+/* CSS Styles */
+/* Estilos para tabletas */
+@media (max-width: 1024px) {
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    header {
+        text-align: left;
+        padding: 10px;
+    }
+
+    main {
+        padding: 10px;
+    }
+}
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 767px) {
+    header {
+        padding: 10px;
+    }
+    nav ul li {
+        display: block;
+        margin-right: 0;
+        margin-bottom: 5px;
+    }
+    main {
+        padding: 10px;
+    }
+    table {
+        font-size: 14px;
+    }
+    form {
+        margin-top: 10px;
+    }
+}
+
+/* Estilos para tablets */
+@media (min-width: 768px) and (max-width: 1023px) {
+    header {
+        padding: 15px;
+    }
+    nav ul li {
+        margin-right: 15px;
+    }
+    main {
+        padding: 15px;
+    }
+    table {
+        font-size: 16px;
+    }
+    form {
+        margin-top: 15px;
+    }
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.center-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+}
+.img_foto {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background: #dfdfdf;
+}
+
+header {
+    background-color: #5986d3;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #d0ee0d;
+}
+
+nav ul li a:hover {
+    color: #07090b;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  /* Estilos del formulario */
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #b77b0c;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #578cdc;
+  }
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
